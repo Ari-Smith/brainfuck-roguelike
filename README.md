@@ -26,7 +26,6 @@ Here are some notes on the mechanics and how to play:
         - Example: +!+!!!!'&a(&b)'c)(d()e')f&(g&'h
         
     - So far, the game consists of a player moving around a rectangular room of any size, with non moving obstructions. 
-    Currently the player is only limited to moving within a 10x10 square but that will be changed. Obstructions will 
-    eventually become enemies, items, doors and obstructions as they are now.
+    Obstructions will eventually become enemies, items, doors and obstructions as they are now.
     - Finally, I cannot seem to find any sort of standardized file type, so I have left it as a .txt file for you to 
     figure out what to do with it.
