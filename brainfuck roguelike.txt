@@ -1,4 +1,4 @@
-﻿memory cell guide                            | starts here
+memory cell guide                            | starts here
                                              v 
 |x move store|y move store|x store|y store|room x|0|room y|0|0|0|0|player x|player y|player hp|obj x|obj y|obj hp|obj2 x|...|objn hp|223|
 
@@ -11,13 +11,13 @@ H
 [<<<<<<<<<<+>>>>>>>>>>++>-[<]+<<[<]>->[-]]
 <
 J
-[<<<<<<<<->>>>>>>>>>>----------[+++++++++++<<]<<<[>>>++++++++++<<<<<]>>-]
+[<<<<<<<<->>>>>[>+>>>>>-<<<<<<-]>>>>>>[<<<<<[<+>>>>>>+<<<<<-]>>>>>+<<]<<<[<<[<+>>>>>>+<<<<<-]]>>-]
 >]<
 K
 [<<<<<<<<+>>>>>>>>>>>-[<]+<<<[<<]>>->[-]<]
 >]<
 L
-[<<<<<<<<<->>>>>>>>>>>----------[+++++++++++<]<<[>>++++++++++<<-]>[>]<[-]]
+[<<<<<<<<<->>>>[>+>>>>>>-<<<<<<<-]>>>>>>>[<<<<<<[<+>>>>>>>+<<<<<<-]>>>>->>+<]<<[<<<<[<+>>>>>>>+<<<<<<-]>>>]>[-]]
 CHECK IF PLAYER IS IN OCCUPIED SPACE
 >>
 subtract player coords from all objects
@@ -49,13 +49,13 @@ subtract 1 from x for objects in row
 find any empty x
 >+>>>>>[>>>]<<<<<[<<<]
 output the object hp on map and loop until row ends
->[>>>>>>>.<<<<<<<<<]>.[<<<]>[<]>>-]>[<+>-]
+>[>>>>>>>.<<<<<<<<<]>[.<<->]>[<<<]>>[<]>>-]>[<+>-]
 end row and loop back to do another object row regardless
->->+<<<<+>>>>>>.<.>>>[>->>]<<+<<[<<<]>>>>>]
+>->+<<<<+>>>>>>.<.>>[>>->]<+<<[<<<]>>>>>]
 <<[>>>>>.<<<<+<-]>[<+>-]>>>>..<.
 RESTORING ORIGINAL DATA FORMAT
 restore object coords
-<<<<[>>>>>>[>+>>]<<-<[<<<]>>>>+<-]>[<+>-]
+<<<<[>>>>>>[>+>>]<<-<[<<<]>>>>+<-]>>>>>>[>+>>]<<-<[<<<]>[<+>-]
 >>+[>>>[>>+>]<-<<<<[<<<]>+>-]<->
 remove map characters
 >[-]>[-]>[-]
